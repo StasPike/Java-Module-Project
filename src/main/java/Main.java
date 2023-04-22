@@ -10,20 +10,21 @@ public class Main {
         После введения > 1 - создать калькулятор который считает счет на это количество людей
          */
         Scanner scanner = new Scanner(System.in);
-
+        int number;
         while (true) {
             System.out.print("Enter the number of people (more than one): ");
-            int number = scanner.nextInt();
+            number = scanner.nextInt();
 
             if (number > 1) {
                 System.out.println("Number of people: " + number);
-                //Часть 2 - Калькулятор, в отдельном классе
                 break;
             } else {
                 System.out.println("You entered the wrong number, please try again.");
             }
         }
 
+
+        //Часть 2 - Калькулятор, в отдельном классе
 
         //Часть 3 - Вывод результатов
 
