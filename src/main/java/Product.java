@@ -1,14 +1,10 @@
 public class Product {
    String name;
    double price;
-   public Product(String name, double price) {
-      this.name = name;
-      this.price = price;
-   }
 
    public Product() {
-      String name;
-      double price;
+      this.name = "";
+      this.price = 0.0;
    }
 
    public String getName() {
